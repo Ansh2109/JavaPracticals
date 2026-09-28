@@ -12,7 +12,6 @@ interface Switchable {
             on();
         }
     }
-    
 }
 class Fan implements Switchable{
     boolean run=false;
